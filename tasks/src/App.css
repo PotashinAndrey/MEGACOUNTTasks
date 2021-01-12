@@ -1,0 +1,27 @@
+.App {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1000px 1fr;
+}
+
+.contentWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  gap: 50px;
+}
+
+.spiralMatrix {
+  width: 400px;
+  margin: 0;
+  display: grid;
+  justify-content:stretch;
+}
+
+.task4 {
+  display: grid;
+  grid-template-rows: min-content min-content 1fr;
+  /* text-align: center; */
+  gap: 5px;
+}
